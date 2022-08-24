@@ -1,0 +1,173 @@
+ body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+  text-align: center;
+  background: linear-gradient(-45deg, #00d2ff, #3a7bd5, #00d2ff, #3a7bd5);
+  background-size: 500% 500%;
+  animation: gradient 12s ease infinite;
+ 
+}
+
+.form-login h2 {
+  font-size: 4.5vw;
+  color: #3a7bd5;
+  margin: -1vw;
+}
+
+ button {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3.2vw;
+  padding: .5vw 3.2vw;
+  text-align: center;
+  text-transform: uppercase;
+  transition:all 0.5s;
+  background-size: 200% auto;
+  color: #FFF;
+  width: 200px;
+  cursor: pointer;
+border: none;
+  border-radius: 2vw;
+}
+
+.gradient-button {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
+.gradient-button:hover { background-position: right center; }
+
+a{
+  color: #000;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.wrapper {
+  height: 10vw;
+}
+.wrapper a{
+  text-decoration: none;
+  color: #999;
+  font-size: 1.8vw;
+}
+
+.wrapper p {
+  margin: 0;
+}
+.login {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+form {
+  background-color: #fff;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, .5);
+  width: 50vw;
+  height: 62vw;
+  border-radius: 2vw;
+  margin-top: 2vw;
+  justify-content: space-evenly !important;
+}
+
+.form-title{
+  height: 20%;
+  height: 10%;
+}
+
+.form-title h2 {
+  font-size: 4.5vw;
+  color: #000;
+  margin: -1vw;
+}
+
+.user-info {
+  width: 100%;
+  height: 25%;
+  justify-content: space-around;
+}
+
+.user-box {
+  position: relative;
+  width: 80%;
+  line-height: 3.8vw;
+}
+
+.user-box input {
+  width: 100%;
+  line-height: inherit;
+  font-size: 2vw;
+  outline: none;
+  border: none;
+  border-bottom: 1.5px solid #999;
+  margin: 0;
+  padding: 0;
+}
+
+.user-box label {
+  position: absolute;
+  color: #999;
+  font-size: 2vw;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transition: .6s;
+}
+
+.user-box input:focus~label,
+.user-box input:valid~label {
+  top: -10px;
+  font-size: 1.5vw;
+  color: #0f0070;
+  text-shadow: 0px 0px 10px rgba(8, 0, 255, 0.5);
+}
+
+.user-box input:focus {
+  border-bottom: 1.6px solid rgba(8, 0, 255, 0.5);
+} 
+
+img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+

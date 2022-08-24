@@ -1,0 +1,133 @@
+
+@media (min-width: 768px) {
+    form {
+        width: 38vw;
+        height: 46vw;
+    }
+
+    .form-title h2 {
+        font-size: 3.5vw;
+    }
+
+
+    .user-box {
+        line-height: 2.8vw;
+    }
+
+    .user-box label {
+        font-size: 2vw;
+    }
+
+    .user-box input:focus~label,
+    .user-box input:valid~label {
+        top: -15px;
+    }
+
+    .wrapper a {
+        font-size: 1.6vw;
+    }
+  
+
+@media (min-width: 992px) {
+    form {
+        width: 32vw;
+        height: 38vw;
+    }
+
+    .form-title h2 {
+        font-size: 3vw;
+    }
+    
+    .social-text p {
+        font-size: 1.2vw;
+    }
+
+    .social-media-links a {
+        height: 3vw;
+        width: 3vw;
+    }
+
+    .social-media-links i {
+        font-size: 1.5vw;
+    }
+
+    .user-box label {
+        font-size: 1.5vw;
+    }
+
+    .user-box input {
+        font-size: 1.8vw;
+    }
+
+    .user-box input:focus~label,
+    .user-box input:valid~label {
+        top: -15px;
+        font-size: 1vw;
+    }
+
+
+     button {
+        font-size: 2vw;
+        height: 4vw;
+    }
+
+    .wrapper a {
+        font-size: 1.2vw;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    form {
+        width: 26vw;
+        height: 32vw;
+    }
+
+    .form-title h2 {
+        font-size: 2.5vw;
+    }
+
+    .social-text p {
+        font-size: 1vw;
+    }
+
+    .social-media-links a {
+        height: 2.5vw;
+        width: 2.5vw;
+    }
+
+    .user-box {
+        line-height: 1.8vw;
+    }
+
+    .social-media-links i {
+        font-size: 1vw;
+    }
+
+    .user-box label {
+        font-size: 1.2vw;
+        top: 0;
+        left: 0;
+    }
+
+    .user-box input {
+        font-size: 1.2vw;
+    }
+
+    .user-box input:focus~label,
+    .user-box input:valid~label {
+        top: -20px;
+        font-size: .85vw;
+    }
+
+   
+
+    .wrapper {
+        height: 4vw;
+        justify-content: space-around;
+    }
+   
+
+}
+}
