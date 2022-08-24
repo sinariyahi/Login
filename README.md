@@ -14,7 +14,7 @@ Techniques and Features🧵
 
 .  Color gradient
 
-.  FlexBox
+.  Flex Box
 
 Please give me a star⭐
 ==========================================
